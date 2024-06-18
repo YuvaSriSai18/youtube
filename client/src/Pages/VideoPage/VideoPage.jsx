@@ -155,7 +155,8 @@ function VideoPage() {
         <div className="container2_videoPage">
           <div className="video_display_screen_videoPage" ref={videoContainerRef}>
             <iframe
-              src={`http://localhost:5500/${vv?.filePath}`} // Update this URL if needed
+              //src={`http://localhost:5500/${vv?.filePath}`} / Update this URL if needed
+              src={`https://youtube-server-eight.vercel.app/${vv?.filePath}`}
               className={"video_ShowVideo_videoPage"}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
